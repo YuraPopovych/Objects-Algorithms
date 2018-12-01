@@ -1,5 +1,3 @@
-# Implement insertion sort below.
-# Write your code here!
 def insertion(my_list):
     sorted_list = []
     for i in range(len(my_list)):
