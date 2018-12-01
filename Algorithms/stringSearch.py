@@ -25,10 +25,6 @@ def measure_string(myStr):
         del myStr[0]
         return 1 + measure_string(myStr)
 
-    # The line below will test your function. As written, this
-
-
-# should print 13. You may modify this to test your code.
 print(measure_string("13 characters"))
 
 
