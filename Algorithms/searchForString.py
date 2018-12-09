@@ -12,18 +12,7 @@
 #      -> []
 #  search_for_string(["bob", "bobby", "bob"])
 #      -> [0, 2]
-#
-#Use a linear search algorithm to achieve this. Do not
-#use the list method index.
-#
-#Recall also that one benefit of Python's general leniency
-#with types is that algorithms written for integers easily
-#work for strings. In writing search_for_string(), make sure
-#it will work on integers as well -- we'll test it on
-#both.
 
-
-#Write your code here!
 
 def search_for_string(source, target):
     count = 0

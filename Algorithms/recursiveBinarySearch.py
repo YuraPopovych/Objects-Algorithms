@@ -29,12 +29,6 @@ def binary_search_year(days, taget_date):
     else:
         return binary_search_year(days[:mid_point], taget_date)
 
-        
-
-#Write your code here!
-
-#If your function works correctly, this will originally
-#print: True, then False
 listOfdays = [date(2016, 11, 26), date(2014, 11, 29), 
                date(2008, 11, 29), date(2000, 11, 25), 
                date(1999, 11, 27), date(1998, 11, 28), 
