@@ -1,22 +1,4 @@
-#Here's a long one -- you can do it!
-#
-#Rewrite the following class so that it uses getters and
-#setters for all three variables (title, description,
-#completed). The getters should be called: getTitle,
-#getDescription,  getCompleted. The setters should be
-#called: setTitle, setDescription, setCompleted.
-#
-#In addition, the setter should check to make sure that
-#the new value is the correct type: title and description
-#should always be of type str, and completed should always
-#be of type bool. If the value is not the right type, set
-#the value of the corresponding attribute to None (the
-#keyword, not the string "None").
-#
-#To summarize (and give a to-do list):
-# - Create getters and setters for each variable.
-# - Check the type of the new value inside the setters,
-#   and print an error if it's the wrong type.
+
 
 class TodoItem:
     def __init__(self, title, description, completed=False):
@@ -56,12 +38,7 @@ class TodoItem:
 #You can change this code to test how your class behaves
 #with different variables and method calls.
 #
-#If your class works correctly, this will originally print:
-#Mow
-#Mow the lawn
-#False
-#True
-#None
+
 item = TodoItem("Mow", "Mow the lawn")
 print(item.getTitle())
 print(item.getDescription())

@@ -1,17 +1,4 @@
-# Below is a class representing a person. You'll see the
-# Person class has three instance variables: name, age,
-# and GTID. The constructor currently sets these values
-# via a calls to the setters.
-#
-# Create a new function called same_person. same_person
-# should take two instances of Person as arguments, and
-# returns True if they are the same Person, False otherwise.
-# Two instances of Person are considered to be the same if
-# and only if they have the same GTID. It does not matter
-# if their names or ages differ as long as they have the
-# same GTID.
-#
-# You should not need to modify the Person class.
+
 
 class Person:
     def __init__(self, name, age, GTID):
