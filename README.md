@@ -180,3 +180,44 @@ keyword, not the string "None").
     ```
 ### **Algorithms**
 
+* Insert sort
+* Linear search
+* Recursive binary search 
+ Example, imagine if listOfdays had three instances of date: one for January 1st 2016, one for January 1st 2017,
+ and one for January 1st 2018.Then:
+  ```
+   binary_search_year(listOfdays, 2016) -> True
+   binary_search_year(listOfdays, 2015) -> False
+  ```
+* Recursive Fibonacci
+* Reverse merge sort. Example 1, we gave you the code for
+merge_sort. You may copy that code into this problem and modify it. Change it such that instead of sorting from lowest to highest, it sorts from highest to lowest.
+Name your function sort_with_merge(). For example:
+    ```
+    if you call merge_sort([5, 3, 1, 2, 4]),
+    you would get [5, 4, 3, 2, 1].
+    ```
+    Do not use Python's sort or reverse methods to complete this.
+* Search for string. Write a function called search_for_string() that takes two
+parameters, a list of strings, and a string. This function
+should return a list of all the indices at which the
+string is found within the list.You may assume that you do not need to search inside the
+items in the list; for examples:
+    ```
+    search_for_string(["bob", "burgers", "tina", "bob"], "bob")
+        -> [0,3]
+    search_for_string(["bob", "burgers", "tina", "bob"], "bae")
+        -> []
+    search_for_string(["bob", "bobby", "bob"])
+        -> [0, 2]
+    ```     
+    If  function works correctly, this will originally
+    print:
+
+    ```
+    [1, 4, 5]
+    ```
+
+* String search. Find len of string without len function and with recursion.
+* Twist recursion. For this problem, implement Fibonacci recursively, with a twist! Imagine that we want to create a new number sequence called Fibonacci-3. In Fibonacci-3, each number in the sequence is the sum of the previous three numbers. The sequence will start with three 1s, so the fourth Fibonacci-3 number would be 3 (1+1+1), the fifth would be 5 (1+1+3),the sixth would be 9 (1+3+5), the seventh would be 17
+(3+5+9), etc.

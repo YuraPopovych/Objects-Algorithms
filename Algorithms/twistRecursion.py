@@ -1,11 +1,3 @@
-#For this problem, implement Fibonacci recursively, with a
-#twist! Imagine that we want to create a new number sequence
-#called Fibonacci-3. In Fibonacci-3, each number in the
-#sequence is the sum of the previous three numbers. The
-#sequence will start with three 1s, so the fourth Fibonacci-3
-#number would be 3 (1+1+1), the fifth would be 5 (1+1+3),
-#the sixth would be 9 (1+3+5), the seventh would be 17
-#(3+5+9), etc.
 
 
 def fib3(n):

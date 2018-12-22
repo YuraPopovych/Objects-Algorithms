@@ -1,9 +1,5 @@
 
-#Example, imagine if listOfdays had three instances of
-#date: one for January 1st 2016, one for January 1st 2017,
-#and one for January 1st 2018. Then:
-#  binary_search_year(listOfdays, 2016) -> True
-#  binary_search_year(listOfdays, 2015) -> False
+
 
 from datetime import date
 
