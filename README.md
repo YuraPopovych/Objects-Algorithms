@@ -24,7 +24,6 @@ If your function works correctly, this will originally print:
     128 
     red 
     ```
-, each on a separate line.
 * 5.1.2.2. Write a class named "number" with one attribute called
 "value" which defaults to 0 and another attribute called
 "even" which defaults to True. Next, create an instance of this class and assign it to
@@ -166,11 +165,12 @@ the value of the corresponding attribute to None (the
 keyword, not the string "None"). 
 
     To summarize (and give a to-do list):
-- Create getters and setters for each variable.
-- Check the type of the new value inside the setters,
+  - Create getters and setters for each variable.
+  - Check the type of the new value inside the setters,
   and print an error if it's the wrong type.
 
     If your class works correctly, this will originally print:
+
     ```
     Mow
     Mow the lawn
