@@ -178,6 +178,21 @@ keyword, not the string "None").
     True
     None
     ```
+* 5.1.7. 
+Below we've started a class called FibSeq. At any time,
+FibSeq holds two values from the Fibonacci sequence:
+back1 and back2. Create a new method inside FibSeq called next_number. The next_number method should: 
+   - Calculate and return the next number in the sequence,
+  based on the previous 2.
+  - Update back2 with the former value of back1, and update
+  back1 with the new next item in the sequence.
+    
+
+    The code below will test your method. As written, it should print:
+    ```
+    1, 2, 3, 5, and 8.
+    ```
+
 ### **Algorithms**
 
 * Insert sort
