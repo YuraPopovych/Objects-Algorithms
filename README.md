@@ -193,6 +193,24 @@ back1 and back2. Create a new method inside FibSeq called next_number. The next_
     1, 2, 3, 5, and 8.
     ```
 
+* 5.1.8. Write a class called "Burrito". A Burrito should have the 
+following attributes (instance variables):
+    - meat
+    - to_go
+    - rice 
+    - beans 
+    - extra_meat (default: False)
+    - guacamole (default: False)
+    - cheese (default: False)
+    - pico (default: False)
+    - corn (default: False)
+    ```
+    The code below will test your class. If it is written
+    correctly, this will print True, then False. Note,
+    though, that we'll test your code against more complex
+    test cases when you submit.
+    ```
+
 ### **Algorithms**
 
 * Insert sort
@@ -236,3 +254,4 @@ items in the list; for examples:
 * String search. Find len of string without len function and with recursion.
 * Twist recursion. For this problem, implement Fibonacci recursively, with a twist! Imagine that we want to create a new number sequence called Fibonacci-3. In Fibonacci-3, each number in the sequence is the sum of the previous three numbers. The sequence will start with three 1s, so the fourth Fibonacci-3 number would be 3 (1+1+1), the fifth would be 5 (1+1+3),the sixth would be 9 (1+3+5), the seventh would be 17
 (3+5+9), etc.
+
