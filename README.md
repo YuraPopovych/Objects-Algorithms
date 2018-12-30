@@ -217,18 +217,18 @@ value is a valid value, it should set the corresponding
 attribute to the given value. Otherwise, it should set the 
 attribute to False.
 
-Edit the constructor to use these new setters and getters.
-In other words, if we were to call:
+    Edit the constructor to use these new setters and getters.
+    In other words, if we were to call:
 
-new_burrito = Burrito("spaghetti", True, True, False)
+    new_burrito = Burrito("spaghetti", True, True, False)
 
-new_burrito.meat would be False because "spaghetti" is not
-one of the valid options. Note that you should NOT try to
-check if the new value is valid in both the constructor and
-the setter: instead, just call the setter from the
-constructor using something like self.set_meat(meat).
+    new_burrito.meat would be False because "spaghetti" is not
+    one of the valid options. Note that you should NOT try to
+    check if the new value is valid in both the constructor and
+    the setter: instead, just call the setter from the
+    constructor using something like self.set_meat(meat).
 
-Valid values for each setter are as follows:
+    Valid values for each setter are as follows:
 
     - set_meat: "chicken", "pork", "steak", "tofu", False
     - set_to_go: True, False
@@ -259,6 +259,23 @@ If your function works correctly, this will originally
 print: 7.75
 ```
 
+* 5.1.11. Copy your Burrito class from the last exercise. Below,
+We've given you three additional classes named "Meat",  
+"Rice" and "Beans." We've gone ahead and built getters
+and setters in these classes to check if the incoming
+values are valid, so you'll be able to remove those
+from your original code. First, edit the constructor of your Burrito class.
+Instead of calling setters to set the values of the
+attributes self.meat, self.rice, and self.beans, it
+should instead create new instances of Meat, Rice, and
+Beans. The arguments to these new instances should be
+the same as the arguments you were sending to the
+setters previously (e.g. self.rice = Rice("brown")
+instead of set_rice("brown")).
+If your function works correctly, this will originally
+    ```
+    print: 7.75
+    ```
 
 ### **Algorithms**
 
