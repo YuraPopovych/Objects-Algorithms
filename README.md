@@ -276,6 +276,7 @@ If your function works correctly, this will originally
     ```
     print: 7.75
     ```
+* 5.1.12. Write function get_total which will calculate total cost of burritos.
 
 ### **Algorithms**
 
