@@ -240,6 +240,25 @@ Valid values for each setter are as follows:
     - set_pico: True, False
     - set_corn: True, False
 
+* 5.10. Now, add
+a method called "get_cost" to the Burrito class. It should
+accept zero arguments (except for "self", of course) and
+it will return a float. Here's how the cost should be
+computed:
+
+    - The base cost of a burrito is $5.00
+    - If the burrito's meat is "chicken", "pork" or "tofu", 
+    add $1.00 to the cost
+    - If the burrito's meat is "steak", add $1.50 to the cost
+    - If extra_meat is True and meat is not set to False, add
+    $1.00 to the cost
+    - If guacamole is True, add $0.75 to the cost
+
+If your function works correctly, this will originally
+```
+print: 7.75
+```
+
 
 ### **Algorithms**
 
