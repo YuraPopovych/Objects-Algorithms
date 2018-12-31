@@ -322,3 +322,25 @@ items in the list; for examples:
 * Twist recursion. For this problem, implement Fibonacci recursively, with a twist! Imagine that we want to create a new number sequence called Fibonacci-3. In Fibonacci-3, each number in the sequence is the sum of the previous three numbers. The sequence will start with three 1s, so the fourth Fibonacci-3 number would be 3 (1+1+1), the fifth would be 5 (1+1+3),the sixth would be 9 (1+3+5), the seventh would be 17
 (3+5+9), etc.
 
+### **Final problem set**
+
+* Write a function called to_dictionaries that will take as
+input a list of instances of this class. It should return a
+dictionary of dictionaries. The keys for the dictionaries
+should be the short names of the nations. The values should
+be additional dictionaries, each with five keys: long_name,
+iso_code, iso_short, iso_long, and capital. 
+For example, if we created two instances of Nation like this:
+
+    new_nation_1 = Nation("Albania", "Republic of Albania", 8, "AL", "ALB", "Tirana")
+    new_nation_2 = Nation("Angola", "Republic of Angola", 24, "AO", "AGO", "Luanda")
+
+    ...then made them into a list like this:
+n   ation_list = [new_nation_1, new_nation_2]
+
+    ...then called the function:
+new_dict = to_dictionaries(nation_list)
+    ```
+    {"Albania": {"long_name": "Republic of Albania", "iso_code": 8, "iso_short": "AL", "iso_long": "ALB", "capital": "Tirana"},
+    "Angola": {"long_name": "Republic of Angola", "iso_code": 24, "iso_short": "AO", "iso_long": "AGO", "capital": "Luanda"}}
+    ```
