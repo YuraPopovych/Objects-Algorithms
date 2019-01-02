@@ -15,12 +15,15 @@ def generate_name(file, targetName):
             newSecondName = name.strip()
 
 
-    newFullName = newFirstName + " " + newSecondName
+    newFullName = "Superhero name for " + targetName + " is " + newFirstName + " " + newSecondName
     return newFullName
 
-print(generate_name("heronames.txt", "Addison Zook"))
-print(generate_name("heronames.txt", "Uma Irwin"))
-print(generate_name("heronames.txt", "David Joyner"))
+# print(generate_name("heronames.txt", "Addison Zook"))
+# print(generate_name("heronames.txt", "Uma Irwin"))
+# print(generate_name("heronames.txt", "David Joyner"))
+print(generate_name("heronames.txt", "Yurii Surnuk"))
+print(generate_name("heronames.txt", "Anastasia Kotleta"))
+
 
 
 
