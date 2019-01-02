@@ -324,7 +324,7 @@ items in the list; for examples:
 
 ### **Final problem set**
 
-* Write a function called to_dictionaries that will take as
+* nation. Write a function called to_dictionaries that will take as
 input a list of instances of this class. It should return a
 dictionary of dictionaries. The keys for the dictionaries
 should be the short names of the nations. The values should
@@ -343,4 +343,22 @@ new_dict = to_dictionaries(nation_list)
     ```
     {"Albania": {"long_name": "Republic of Albania", "iso_code": 8, "iso_short": "AL", "iso_long": "ALB", "capital": "Tirana"},
     "Angola": {"long_name": "Republic of Angola", "iso_code": 24, "iso_short": "AO", "iso_long": "AGO", "capital": "Luanda"}}
+    ```
+* nameGenerator. A common meme on social media is the name generator. These
+are usually images where they map letters, months, days,
+etc. to parts of fictional names, and then based on your
+own name, birthday, etc., you determine your own.
+For example, here's one such image for "What's your
+superhero name?": https://i.imgur.com/TogK8id.png
+Write a function called generate_name. generate_name should
+have two parameters, both strings. The first string will
+represent a filename from which to read name parts. The
+second string will represent an individual person's name,
+which will always be a first and last name separate by a space.If your function works correctly, this will originally
+print: Captain Hawk, Doctor Yellow Jacket, and Moon Moon,
+each on their own line.
+    ```
+    print(generate_name("heronames.txt", "Addison Zook"))
+    print(generate_name("heronames.txt", "Uma Irwin"))
+    print(generate_name("heronames.txt", "David Joyner"))
     ```
