@@ -2,7 +2,6 @@ def next_move(cards):
     totalPoints = 0
     cardsPoints = {
         'A': 1,
-        'ACE': 11,
         'J': 10,
         'Q': 10,
         'K' : 10
@@ -15,7 +14,7 @@ def next_move(cards):
                 if totalPoints + 11 in aceRange:
                     totalPoints += 11
                 else:
-                    totalPoints += 1 
+                    totalPoints += cardsPoints[card] 
             else:
                 totalPoints += cardsPoints[card]
         else:
