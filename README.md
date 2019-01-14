@@ -408,3 +408,32 @@ be a card in the dealer's current hand, such as "AK" or
   - "Hit" if the dealer should take another card.
   - "Stay" if the dealer should not take another card.
   - "Bust" if the sum is already over 21.
+
+
+
+### **Exam**
+* name. Create a class called Name. Name should have two attributes
+(instance variables): first_name and last_name. Make sure
+the variable names match those words. Both will be strings.
+    Name should have a constructor with two required parameters,
+    one for each of those attributes (first_name and last_name,
+    in that order).
+    Name should also have two methods. The first should be
+    called find_printed_name, and should return the first and
+    last name with a space in between, e.g. "David Joyner". The
+    second method should be called find_sortable_name, and
+    should return the last name, then a comma and space, and
+    then only the first initial, e.g. "Joyner, D".
+    Neither sortable_name nor printed_name should be attributes:
+    both should be created and returned when those methods are
+    called. Neither method will have any parameters besides self. If it's written correctly, It's print:
+    
+    ```
+    David
+    Joyner
+    David Joyner
+    Joyner, D
+    ```
+
+    
+    
