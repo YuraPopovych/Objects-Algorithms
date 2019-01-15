@@ -465,4 +465,21 @@ are thus:
     1
     8
     ```
+
+* checkAvailability. Imagine you're writing a program to check if a person is
+available at a certain time. To do this, you want to write a function called check_availability. check_availability will have two parameters: a list of instances of the Meeting class, and proposed_time, a particular date and time. check_availability should return True (meaning the person
+is available) if there are no instances of Meeting that
+conflict with the proposed_time. In other words, it should
+return False if proposed_time is between the start_time and
+end_time for any meeting in the list of meetings. The Meeting class is defined below. It has two attributes:
+start_time and end_time. start_time is an instance of the
+datetime class showing when the meeting starts, and
+end_time is an instance of the datetime class indicating
+when the meeting ends.
+If your function works correctly, this will originally
+print: 
+    ```
+    True
+    False
+    ```
     
