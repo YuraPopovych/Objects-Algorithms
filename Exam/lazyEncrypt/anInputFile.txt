@@ -1,0 +1,2 @@
+Here is a pretty simple message to encrypt
+When it's encrypted, it will look different
